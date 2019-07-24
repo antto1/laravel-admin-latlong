@@ -6,7 +6,7 @@
 ## Installation
 
 ```bash
-composer require laravel-admin-ext/latlong -vvv
+composer require antto1/laravel-admin-latlong -vvv
 ```
 
 ## Configuration
@@ -62,11 +62,6 @@ $form->latlong('latitude', 'longitude', '经纬度')->height(500);
 $form->latlong('latitude', 'longitude', '经纬度')->default(['lat' => 90, 'lng' => 90]);
 ```
 
-## Donate
-
-如果觉得这个项目帮你节约了时间，不妨支持一下;)
-
-![-1](https://cloud.githubusercontent.com/assets/1479100/23287423/45c68202-fa78-11e6-8125-3e365101a313.jpg)
 
 License
 ------------
